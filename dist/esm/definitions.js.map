@@ -1,0 +1,1 @@
+{"version":3,"file":"definitions.js","sourceRoot":"","sources":["../../src/definitions.ts"],"names":[],"mappings":"","sourcesContent":["export interface CapacitorPassToWalletPlugin {\n  addToWallet(options: { base64: string }): Promise<{ message: string }>;\n  addMultipleToWallet(options: {\n    base64: string[];\n  }): Promise<{ message: string }>;\n}\n"]}

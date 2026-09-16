@@ -1,0 +1,47 @@
+{
+  "api": {
+    "name": "CapacitorPassToWalletPlugin",
+    "slug": "capacitorpasstowalletplugin",
+    "docs": "",
+    "tags": [],
+    "methods": [
+      {
+        "name": "addToWallet",
+        "signature": "(options: { base64: string; }) => Promise<{ message: string; }>",
+        "parameters": [
+          {
+            "name": "options",
+            "docs": "",
+            "type": "{ base64: string; }"
+          }
+        ],
+        "returns": "Promise<{ message: string; }>",
+        "tags": [],
+        "docs": "",
+        "complexTypes": [],
+        "slug": "addtowallet"
+      },
+      {
+        "name": "addMultipleToWallet",
+        "signature": "(options: { base64: string[]; }) => Promise<{ message: string; }>",
+        "parameters": [
+          {
+            "name": "options",
+            "docs": "",
+            "type": "{ base64: string[]; }"
+          }
+        ],
+        "returns": "Promise<{ message: string; }>",
+        "tags": [],
+        "docs": "",
+        "complexTypes": [],
+        "slug": "addmultipletowallet"
+      }
+    ],
+    "properties": []
+  },
+  "interfaces": [],
+  "enums": [],
+  "typeAliases": [],
+  "pluginConfigs": []
+}
